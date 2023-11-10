@@ -1,0 +1,35 @@
+@media only screen and (max-width: 300px)  {
+    #chatListSearchInput{
+        top: 0.7vh;
+        left: 7vw;
+        height: 3.3vw;
+        border-radius: 5vw;
+        font-size: 2vw;
+        padding-left: 2vw;
+    }
+    .chatListHeaderIcon{
+        top: 0.7vh;
+        left: 1vw;
+         width: 3.2vw;
+        height: 3.2vw;
+    }
+
+}
+
+@media (min-width: 301px) and (max-width: 500px )  {
+    #chatListSearchInput{
+        top: 0.8vh;
+        left: 7vw;
+        height: 3vw;
+        border-radius: 5vw;
+        font-size: 2vw;
+        padding-left: 1vw;
+    }
+    .chatListHeaderIcon{
+        top: 0.7vh;
+        left: 1vw;
+         width: 3.2vw;
+        height: 3.2vw;
+    }
+
+}

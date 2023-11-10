@@ -1,0 +1,75 @@
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --appearanceColorOne: #8B0000;
+    --appearanceColorTwo: #191970;
+    --variable: calc(1vh + 1vw);
+}
+
+#container{
+    position: absolute;
+    /* overflow: hidden; */
+    width: 100vw;
+    height: 100%;
+    background: linear-gradient(45deg, var(--appearanceColorOne) 5% , var(--appearanceColorTwo) 95%);
+}
+
+#chatList{
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    color: white;
+    border: solid #fff 1px;
+    /* background-color: #fafafa; */
+    width: 40vw;
+    height: 100vh;
+}
+
+#chatList img{
+    position: absolute;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+#chatList input{
+    position: absolute;
+    width: 28vw;
+    outline: none;
+    /* cursor:crosshair; */
+}
+
+.chatListHeaderIcon{
+    top: 1vh;
+    width: 2.1vw;
+    height: 2.1vw;
+    border-radius: 50%;
+}
+
+#chatListSearchInput{
+    left: 1vw;
+    top: 0.9vh;
+    left: 7vw;
+    height: 2vw;
+    border-radius: 5vw;
+    font-size: 1.4vw;
+    padding-left: 1vw;
+
+}
+
+#chatBox{
+    position: absolute;
+    top: 0vh;
+    left: 40vw;
+    width: 60vw;
+    height: 100vh;
+    border: solid #fff 1px;
+    color: white;
+
+}
